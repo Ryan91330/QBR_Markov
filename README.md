@@ -76,14 +76,14 @@ Regime outputs serve as powerful features:
 These features often improve performance in forecasting, volatility modeling, and regime-conditioned strategies due to noise reduction and structural signal extraction.
 
 ## Project Structure
-├── main.py              # Command-line interface and workflow orchestration
-├── markov.py            # Regime discretization, transition matrix estimation, and chi-squared testing
-├── data_downloader.py   # OHLCV data retrieval (yfinance for stocks, python-binance for crypto)
-├── visualizer.py        # Markov chain visualization using Graphviz and NetworkX
-├── mc.dot               # Generated Graphviz DOT file (output)
-└── mc_plot.png          # Rendered Markov chain graph (output)
+├── main.py              # Command-line interface and workflow orchestration\
+├── markov.py            # Regime discretization, transition matrix estimation, and chi-squared testing\
+├── data_downloader.py   # OHLCV data retrieval (yfinance for stocks, python-binance for crypto)\
+├── visualizer.py        # Markov chain visualization using Graphviz and NetworkX\
+├── mc.dot               # Generated Graphviz DOT file (output)\
+└── mc_plot.png          # Rendered Markov chain graph (output)\
 
-Additional files may be generated during runs (e.g., plots, matrices printed to console).
+Matrices are printed to console.
 
 ## Installation
 
