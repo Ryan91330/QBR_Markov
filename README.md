@@ -53,8 +53,8 @@ This enables analysis of:
 
 A chi-squared test is used to assess whether transitions are independent:
 
-- **H₀**: \(S_{t+1} \perp S_t\) (no serial dependence in regimes)  
-- **H₁**: \(S_{t+1} \not\perp S_t\) (serial dependence in regimes)
+- **H₀**: $$\(S_{t+1} \perp S_t\)$$ (no serial dependence in regimes)  
+- **H₁**: $$\(S_{t+1} \not\perp S_t\)$$ (serial dependence in regimes)
 
 A significant result indicates structural dependence and deviation from pure randomness expected under strict forms of the Efficient Market Hypothesis.
 
