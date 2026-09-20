@@ -1,0 +1,14 @@
+digraph {
+state_1;
+state_2;
+state_3;
+state_1 -> state_1 [key=0, weight=0.3575757575757576, label=0.358];
+state_1 -> state_2 [key=0, weight=0.28484848484848485, label=0.285];
+state_1 -> state_3 [key=0, weight=0.35454545454545455, label=0.355];
+state_2 -> state_1 [key=0, weight=0.3242424242424242, label=0.324];
+state_2 -> state_2 [key=0, weight=0.3606060606060606, label=0.361];
+state_2 -> state_3 [key=0, weight=0.3151515151515151, label=0.315];
+state_3 -> state_1 [key=0, weight=0.3151515151515151, label=0.315];
+state_3 -> state_2 [key=0, weight=0.35454545454545455, label=0.355];
+state_3 -> state_3 [key=0, weight=0.3303030303030303, label=0.33];
+}
